@@ -1,20 +1,32 @@
 [
   {
-    "site": "ftp://ftp.debian.org/debian/README",
-    "command": "curl",
+    "site": "Always down (/bin/false)",
+    "command": "script",
     "status": "Fail",
-    "updated": "2021-05-15 07:01:59 UTC"
+    "updated": "2023-01-15 06:12:43 UTC"
   },
   {
-    "site": "heise online",
+    "site": "www.heise.de (curl)",
     "command": "curl",
     "status": "OK",
-    "updated": "2021-05-15 07:01:59 UTC"
+    "updated": "2023-01-15 06:12:43 UTC"
   },
   {
-    "site": "DNS @ Google",
+    "site": "ftp.usa.openbsd.org (curl)",
+    "command": "curl",
+    "status": "OK",
+    "updated": "2023-01-15 06:12:43 UTC"
+  },
+  {
+    "site": "DNS @ Google (nc)",
     "command": "nc",
     "status": "OK",
-    "updated": "2021-05-15 07:01:59 UTC"
+    "updated": "2023-01-15 06:12:43 UTC"
+  },
+  {
+    "site": "Always up (/bin/true)",
+    "command": "script",
+    "status": "OK",
+    "updated": "2023-01-15 06:12:43 UTC"
   }
 ]
