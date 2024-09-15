@@ -1,32 +1,44 @@
 [
   {
+    "site": "Always degraded (exit 80)",
+    "command": "script",
+    "status": "Fail",
+    "time_sec": "",
+    "updated": "2024-09-15 06:16:49 UTC"
+  },
+  {
     "site": "Always down (/bin/false)",
     "command": "script",
     "status": "Fail",
-    "updated": "2024-08-15 07:11:16 UTC"
+    "time_sec": "",
+    "updated": "2024-09-15 06:16:49 UTC"
   },
   {
     "site": "www.heise.de (curl)",
     "command": "curl",
     "status": "OK",
-    "updated": "2024-08-15 07:11:16 UTC"
+    "time_sec": "0",
+    "updated": "2024-09-15 06:16:49 UTC"
   },
   {
     "site": "ftp.usa.openbsd.org (curl)",
     "command": "curl",
     "status": "OK",
-    "updated": "2024-08-15 07:11:16 UTC"
+    "time_sec": "0",
+    "updated": "2024-09-15 06:16:49 UTC"
   },
   {
     "site": "DNS @ Google (nc)",
     "command": "nc",
     "status": "OK",
-    "updated": "2024-08-15 07:11:16 UTC"
+    "time_sec": "0",
+    "updated": "2024-09-15 06:16:49 UTC"
   },
   {
     "site": "Always up (/bin/true)",
     "command": "script",
     "status": "OK",
-    "updated": "2024-08-15 07:11:16 UTC"
+    "time_sec": "0",
+    "updated": "2024-09-15 06:16:49 UTC"
   }
 ]
